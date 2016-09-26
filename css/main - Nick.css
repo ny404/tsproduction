@@ -1,0 +1,13 @@
+body { padding: 0; margin: 0; font-family: 'Open Sans', Arial, Helvetica, sans-serif; }
+h1, h2, h3 { font-family: 'Roboto', sans-serif; text-transform: uppercase; }
+h2 { color: black; font-size: 2em; }
+p { font-size: 1.2em; }
+
+div.slider { background: #2980b9; height: auto; padding: 5%; }
+div.slider h1 { color: white; font-size: 3em; text-align: center; }
+
+section { padding: 2% 5%; width: 90%; height: auto; }
+section div.row { width: 100%; }
+section div.row div.col-2-4-8 { float: left; padding: 2.5%; width: 21%; display: block; }
+section div.row div.col-2-4-8:first-child { padding-left: 0; }
+section div.row div.col-2-4-8:last-child { padding-right: 0; }
