@@ -3,14 +3,33 @@ body {
 	font-family: Times New Roman;
 }
 h1{
-	margin:0 auto;
-	top: 0;
 	left: 0;
 	right: 0;
 	border: 5px;
 	margin: 5px;
-	background: white;
 	padding: auto;
 	text-align: center;
 	position: fixed;
+	color: white;
+	height: 90px;
+}
+.sidebar{
+	background: green;
+	color: yellow;
+	left:0px;
+	bottom: 300px;
+	top:100px;
+	width: 100px;
+	position: absolute;
+}
+.mainsite{
+	color: white;
+	left: 120px;
+	top: 100px;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+.site{
+	color: white;
 }
